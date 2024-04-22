@@ -635,6 +635,7 @@ a {
    flex-wrap: wrap; 
    padding: 10px;
     margin: 0;
+    margin-bottom: 10rem;
     
   }
  
@@ -644,7 +645,16 @@ a {
   
     display: flex;
     align-items: center;
+    justify-content: center;
+   
     flex-direction: column;
+  }
+  .section-card-content {
+    width: 300px;
+    outline: 3px solid #d3c59d;
+    outline-offset: 1rem; 
+    padding: 10px;
+  
   }
 }
 
