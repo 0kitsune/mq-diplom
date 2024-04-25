@@ -36,7 +36,7 @@ a {
 /* шапка профиля  */
 .header {
   box-sizing: border-box;
-  padding: 0 150px;
+  padding: 0 240px 0 248px;
   width: 100%;
   background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg);
   background-repeat: no-repeat;
@@ -65,36 +65,36 @@ a {
   justify-content: space-between;
   position: relative;
   z-index: 2;
-  padding: 0 15px;
-  margin: 0 auto 80px;
+  margin: 0 auto 102px;
 }
 
 .logo {
   width: 160px;
   height: 41px;
-  margin-top: 29px;
+  margin-top: 23px;
 }
 
 .menu-list {
   display: flex;
   gap: 35px;
   color: #ffffff;
-  margin-top: 46px;
+  margin-top: 33px;
   text-transform: uppercase;
   font-size: 1.3rem;
+  letter-spacing: 0.5px;
 }
 .burger {
   display: none;
 }
 /* ЗАГОЛОВОК */
 .header-title {
-  width: 65%;
+  width: 60%;
   /* width: 620px; */
-  padding-bottom: 80px;
+  padding-bottom: 120px;
   color: #ffffff;
   text-align: center;
   margin: auto;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   line-height: 7.5rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -625,36 +625,33 @@ a {
   .chapter-title {
     font-size: 1.4rem;
   }
-  .aside-datetime{
+  .aside-datetime {
     font-size: 1.2rem;
   }
-  .aside-title{
+  .aside-title {
     font-size: 1.4rem;
   }
-  .cards{
-   flex-wrap: wrap; 
-   padding: 10px;
+  .cards {
+    flex-wrap: wrap;
+    padding: 10px;
     margin: 0;
     margin-bottom: 10rem;
-    
   }
- 
-  
+
   .card {
     flex-basis: 50%;
-  
+
     display: flex;
     align-items: center;
     justify-content: center;
-   
+
     flex-direction: column;
   }
   .section-card-content {
     width: 300px;
     outline: 3px solid #d3c59d;
-    outline-offset: 1rem; 
+    outline-offset: 1rem;
     padding: 10px;
-  
   }
 }
 
