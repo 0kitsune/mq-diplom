@@ -583,6 +583,7 @@ a {
     padding: 48px 31.5px 0 35px;
     width: 100%;
     background-image: url(../img-diplom/banner-bg-tablet.jpg);
+    margin-bottom: 43px;
   }
 
   .menu {
@@ -609,7 +610,7 @@ a {
   .header-title {
     width: 85%;
     line-height: 1.5;
-    padding-bottom: 95px;
+    padding-bottom: 112px;
     letter-spacing: 0.9px;
   }
 
