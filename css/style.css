@@ -568,13 +568,11 @@ a {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   html {
     font-size: 51%;
   }
-  .menu-list-item {
-    display: none;
-  }
+
   .burger {
     display: block;
     width: 20px;
@@ -582,10 +580,39 @@ a {
 
   .header {
     box-sizing: border-box;
-    padding: 0 20px;
+    padding: 48px 31.5px 0 35px;
     width: 100%;
     background-image: url(../img-diplom/banner-bg-tablet.jpg);
   }
+
+  .menu {
+    margin: 0 auto 85px;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .menu-list {
+    margin-top: 0;
+    align-items: center;
+  }
+
+  .menu-list-item {
+    display: none;
+  }
+
+  .burger {
+    width: 30px;
+  }
+
+  .header-title {
+    width: 85%;
+    line-height: 1.5;
+    padding-bottom: 95px;
+    letter-spacing: 0.9px;
+  }
+
   .main-section-contant {
     flex-basis: calc(50% - 12px);
   }
