@@ -31,6 +31,7 @@ a {
   text-decoration: none;
 }
 .container {
+  max-width: 1660px;
   font-family: 'OpenSans';
 }
 /* шапка профиля  */
@@ -148,24 +149,31 @@ a {
 }
 .main-article {
   max-width: 300px;
-  height: 90px;
+  /* height: 90px; */
   margin: 0 auto;
-  padding: 16px;
+  padding: 36px;
   align-self: flex-end;
   border: 3px solid #706139;
 
   position: absolute;
   top: 0;
-  bottom: 10px;
+  bottom: 20px;
   left: 0;
   right: 0;
   z-index: 3;
 }
+
+.article-link {
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
 .trend {
   max-width: 100%;
 }
 .section-main-title {
-  font-size: 18px;
+  font-size: 2rem;
+  line-height: 1.2;
   font-weight: bold;
   text-transform: uppercase;
   color: #ffffff;
